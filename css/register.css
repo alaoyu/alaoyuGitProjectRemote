@@ -1,0 +1,134 @@
+.header {
+    border-bottom: 2px solid #b1191a;
+}
+
+.footer {
+    background-color: #fff;
+    height: 95px;
+}
+
+.rigisterarea {
+    height: 600px;
+    border: 1px solid #dfdfdf;
+    margin-top: 20px;
+}
+
+.rigisterarea h2 {
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 400;
+    background-color: #ececec;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.rigisterarea h2 .login {
+    float: right;
+    font-size: 14px;
+    color: #333333;
+}
+
+.rigisterarea h2 .login a {
+    color: #cd474e;
+}
+
+.reg_form {
+    width: 600px;
+    margin: 30px auto 0;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+    font-size: 14px;
+    color: #4c4c4c;
+}
+
+.reg_form input {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #999999;
+    margin-top: 20px;
+}
+
+.reg_form .error_icon,
+.reg_form .success_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../images/from_img.png) no-repeat;
+    margin-top: -2px;
+}
+
+.reg_form .success {
+    font-size: 12px;
+    color: green;
+}
+
+.reg_form .success_icon {
+    background: url(../images/success.png) no-repeat;
+}
+
+.reg_form button {
+    width: 100px;
+    height: 25px;
+    border: 1px solid #999999;
+    border-radius: 15px;
+    margin: 10px 0 0 230px;
+}
+
+.reg_form .reeor {
+    font-size: 12px;
+    color: #df3033;
+}
+
+.reg_form .agree input {
+    margin-left: 100px;
+    width: 12px;
+    height: 12px;
+}
+
+.reg_form .agree label {
+    width: 100px;
+    height: 12px;
+}
+
+.reg_form .agree a {
+    color: #1ba1e6;
+}
+
+.reg_form ul .submit {
+    width: 200px;
+    height: 34px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #c81623;
+    margin-left: 110px;
+}
+
+.reg_form .safe {
+    font-size: 12px;
+    padding-left: 165px;
+    margin-top: 10px;
+}
+
+.reg_form .safe em {
+    display: inline-block;
+    padding: 0 12px;
+    height: 16px;
+    color: #fff;
+}
+
+.ruo {
+    background-color: red;
+}
+
+.zhong {
+    background-color: #f79100;
+}
+
+.qiang {
+    background-color: green;
+}

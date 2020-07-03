@@ -1,0 +1,859 @@
+.w .main {
+    margin: 12px 0 0 220px;
+    width: 980px;
+    height: 452px;
+}
+
+/* 焦点图模块 */
+.w .main .focus {
+    float: left;
+    width: 720px;
+    height: 452px;
+}
+
+/* 新闻播报模块 */
+.w .main .newsflash {
+    float: left;
+    width: 250px;
+    height: 454px;
+    margin-left: 9px;
+}
+
+/* 新闻模块 */
+.newsflash .news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+/* 新闻头部模块 */
+.newsflash .news .news-hd {
+    float: left;
+    padding: 0 15px;
+    width: 250px;
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px dotted #e8e8e7;
+
+}
+
+/* 新闻模块标题 */
+.newsflash .news .news-hd h5 {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.newsflash .news .news-hd .more {
+    float: right;
+}
+
+.newsflash .news .news-hd .more::after {
+    font-family: "icomoon";
+    content: "\e920"
+}
+
+/* 新闻身体模块 */
+.newsflash .news .news-bd ul li {
+    float: left;
+    margin-left: -1px;
+    padding: 7px 0 0 15px;
+    font-size: 14px;
+    color: #333333;
+    height: 24px;
+    line-height: 24px;
+}
+
+/* 生活服务模块 */
+.newsflash .lifeserivice {
+    height: 209px;
+    border-left: 1px solid #e4e4e4;
+}
+
+.newsflash .lifeserivice ul li {
+    position: relative;
+    float: left;
+    padding-top: 13px;
+    width: 62px;
+    height: 69px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.newsflash .lifeserivice ul li .discount {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -3px;
+}
+
+.newsflash .lifeserivice ul li p {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    margin-left: -12px;
+}
+
+/* 生活服务图标模块 */
+.newsflash .lifeserivice ul li .tel-charges {
+    display: inline-block;
+    width: 19px;
+    height: 24px;
+    background: url(../images/icons.png) no-repeat -19px -16px;
+}
+
+.newsflash .lifeserivice ul li .plane-ticket {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background: url(../images/icons.png) no-repeat -80px -18px;
+}
+
+.newsflash .lifeserivice ul li .cinema-ticket {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background: url(../images/icons.png) no-repeat -142px -18px;
+}
+
+.newsflash .lifeserivice ul li .game {
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    background: url(../images/icons.png) no-repeat -206px -18px;
+}
+
+.newsflash .lifeserivice ul li .lottery {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background: url(../images/icons.png) no-repeat -17px -89px;
+}
+
+.newsflash .lifeserivice ul li .gas-card {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/icons.png) no-repeat -80px -88px;
+}
+
+.newsflash .lifeserivice ul li .hotel {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background: url(../images/icons.png) no-repeat -143px -88px;
+}
+
+.newsflash .lifeserivice ul li .train-tickets {
+    display: inline-block;
+    width: 18px;
+    height: 23px;
+    background: url(../images/icons.png) no-repeat -209px -88px;
+}
+
+.newsflash .lifeserivice ul li .crowd-funding {
+    display: inline-block;
+    width: 23px;
+    height: 20px;
+    background: url(../images/icons.png) no-repeat -17px -160px;
+}
+
+.newsflash .lifeserivice ul li .cft {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/icons.png) no-repeat -79px -159px;
+}
+
+.newsflash .lifeserivice ul li .gift-card {
+    display: inline-block;
+    width: 24px;
+    height: 16px;
+    background: url(../images/icons.png) no-repeat -143px -160px;
+}
+
+.newsflash .lifeserivice ul li .white-note {
+    display: inline-block;
+    width: 17px;
+    height: 22px;
+    background: url(../images/icons.png) no-repeat -209px -160px;
+}
+
+/* 广告模块 */
+.newsflash .bargain {
+    width: 250px;
+    height: 75px;
+    margin-top: 3px;
+}
+
+/* 推荐模块 */
+.recom {
+    height: 162px;
+    margin-top: 10px;
+}
+
+/* 推荐-今日推荐模块 */
+.recom .recom_hd {
+    position: relative;
+    float: left;
+    height: 162px;
+    width: 205px;
+    background-color: #5c5251;
+}
+
+.recom .recom_hd img {
+    position: absolute;
+    top: 31px;
+    left: 68px;
+}
+
+.recom .recom_hd h4 {
+    position: absolute;
+    top: 98px;
+    left: 61px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+/* 推荐-图片模块 */
+.recom .recom_bd {
+    float: left;
+    height: 162px;
+    width: 995px;
+    background-color: #ebebeb;
+}
+
+.recom .recom_bd ul li {
+    float: left;
+    width: 248px;
+    height: 162px;
+}
+
+.recom .recom_bd ul li img {
+    width: 100%;
+}
+
+.recom .recom_bd ul li:nth-child(-n+3) {
+    border-right: 1px solid #dddddd;
+}
+
+/* 猜你喜欢模块 */
+.mod_gyl {
+    height: 261px;
+    margin-top: 30px;
+}
+
+/* 头部模块 */
+.mod_gyl .mod_gyl_hd {
+    height: 18px;
+}
+
+.mod_gyl .mod_gyl_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.mod_gyl .mod_gyl_hd a {
+    position: relative;
+    float: right;
+    margin-right: 44px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.mod_gyl .mod_gyl_hd a::after {
+    position: absolute;
+    top: 0;
+    right: -21px;
+    content: "\ea2e";
+    font-family: "icomoon"
+}
+
+/* 身体模块 */
+.mod_gyl .mod_gyl_bd {
+    margin-top: 10px;
+    height: 233px;
+    border: 1px solid #ededed;
+}
+
+.mod_gyl .mod_gyl_bd ul li {
+    position: relative;
+    float: left;
+    width: 198px;
+    height: 233px;
+}
+
+.mod_gyl .mod_gyl_bd ul li img {
+    position: absolute;
+    left: 35px;
+    bottom: 12px;
+}
+
+.mod_gyl .mod_gyl_bd ul li:nth-child(2n) {
+    float: left;
+    width: 1px;
+    height: 62px;
+    background-color: #ededed;
+    margin-top: 160px;
+}
+
+/* 传智播客模块 */
+.mod_czbk {
+    height: 432px;
+    margin-top: 30px;
+}
+
+/* 传智播客头部模块 */
+.mod_czbk .mod_czbk_hd {
+    height: 18px;
+    margin-bottom: 8px;
+}
+
+.mod_czbk .mod_czbk_hd h3 {
+    font-size: 18px;
+    height: 18px;
+    color: #333333;
+    font-weight: 400;
+}
+
+/* 传智播客身体模块 */
+.mod_czbk .mod_czbk_bd {
+    float: left;
+    height: 406px;
+    border: 1px solid #ededed;
+}
+
+/* 传智播客身体左侧模块 */
+.mod_czbk_bd .mod_czbk_bd_left {
+    position: relative;
+    float: left;
+    width: 404px;
+    height: 404px;
+    background-color: #b8bddd;
+}
+
+.mod_czbk_bd .mod_czbk_bd_left img {
+    position: absolute;
+    top: 25px;
+    left: 22px;
+    overflow: hidden;
+}
+
+/* 传智播客中左模块 */
+.mod_czbk_bd_ml {
+    float: left;
+    width: 226px;
+}
+
+.mod_czbk_bd .mod_czbk_bd_ml h4 {
+    font-size: 14px;
+    color: #333333;
+    width: 191px;
+    height: 38px;
+    margin-left: 18px;
+    padding-top: 14px;
+    text-align: center;
+    border-bottom: 1px dotted #ededed;
+}
+
+.mod_czbk_bd .mod_czbk_bd_ml .top {
+    position: relative;
+    height: 206px;
+    border-bottom: 1px solid #ededed;
+}
+
+.mod_czbk_bd .mod_czbk_bd_ml .top img {
+    position: absolute;
+    top: 29px;
+    left: 9px;
+}
+
+.mod_czbk_bd .mod_czbk_bd_ml .bottom {
+    position: relative;
+}
+
+.mod_czbk_bd .mod_czbk_bd_ml .bottom img {
+    position: absolute;
+    top: 15px;
+    left: 9px;
+}
+
+/* 传智播客中右模块 */
+.mod_czbk_bd_mr {
+    float: left;
+    width: 405px;
+    height: 404px;
+    background-color: #f7f7f7;
+    border-left: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+}
+
+.mod_czbk_bd_mr h4 {
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+    width: 365px;
+    height: 38px;
+    border-bottom: 1px dotted #ededed;
+    padding-top: 15px;
+    margin-left: 20px;
+}
+
+.mod_czbk_bd_mr ul .top {
+    position: relative;
+    height: 206px;
+    border-bottom: 1px solid #ededed;
+}
+
+.mod_czbk_bd_mr ul .top img {
+    position: absolute;
+    top: 34px;
+    left: 53px;
+}
+
+.mod_czbk_bd_mr ul .bottom_left {
+    position: relative;
+    float: left;
+}
+
+.mod_czbk_bd_mr ul .bottom_left img {
+    position: absolute;
+    top: 22px;
+    left: 13px;
+}
+
+.mod_czbk_bd_mr ul .bottom_middle {
+    float: left;
+    width: 1px;
+    height: 158px;
+    background-color: #ededed;
+    margin-left: 204px;
+}
+
+.mod_czbk_bd_mr ul .bottom_right {
+    position: relative;
+    float: left;
+    margin-left: 21px;
+}
+
+.mod_czbk_bd_mr ul .bottom_right img {
+    position: absolute;
+    top: 22px;
+    left: -3px;
+}
+
+/* 传智播客右侧模块 */
+.mod_czbk_bd_right {
+    float: left;
+    width: 162px;
+    height: 405px;
+}
+
+.mod_czbk_bd_right img {
+    width: 100%;
+}
+
+/* 楼层区域 */
+/* 家电模块 */
+.jiadian {
+    margin-top: 30px;
+}
+
+/* 家电模块头部区域 */
+.floor .jiadian .box_hd {
+    height: 27px;
+    border-bottom: 2px solid #c81623;
+}
+
+.floor .jiadian .box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.floor .jiadian .box_hd .tab_list ul {
+    float: right;
+    height: 12px;
+    margin-right: 9px;
+}
+
+.floor .jiadian .box_hd .tab_list ul li {
+    float: left;
+    height: 12px;
+    line-height: 12px;
+    margin-top: 9px;
+}
+
+.floor .jiadian .box_hd .tab_list li:nth-child(2n) {
+    width: 1px;
+    background-color: #999999;
+    margin: 9px 15px;
+}
+
+/* 家电模块身体区域 */
+.floor .jiadian .box_bd {
+    height: 361px;
+    border: 1px solid #ededed;
+}
+
+.tal_list_item>div {
+    float: left;
+}
+
+.col_210 {
+    float: left;
+    width: 210px;
+    height: 360px;
+    background-color: #f9f9f9;
+}
+
+.tab_list_item .col_210 ul li:nth-child(-n+6) {
+    float: left;
+    margin-top: 11px;
+    width: 86px;
+    height: 21px;
+    font-size: 12px;
+    color: #666666;
+    border-bottom: 1px solid #ededed;
+    text-align: center;
+}
+
+.tab_list_item .col_210 ul li:nth-child(2n-1) {
+    margin-left: 13px;
+}
+
+.tab_list_item .col_210 ul li:nth-child(2n) {
+    margin-left: 12px;
+}
+
+.box_bd .tab_list_item .col_210 ul li:last-child {
+    position: relative;
+    float: left;
+    width: 209px;
+    height: 261px;
+    margin-left: 0;
+}
+
+.box_bd .tab_list_item .col_210 img {
+    position: absolute;
+    top: 26px;
+    left: 28px;
+}
+
+.col_329 {
+    width: 329px;
+    height: 360px;
+}
+
+.tab_list_item .col_329 {
+    position: relative;
+    float: left;
+    background-color: #aed6d8;
+}
+
+.tab_list_item .col_329 img {
+    position: absolute;
+    top: 39px;
+    left: 31px;
+}
+
+.col_221 {
+    width: 221px;
+    height: 360px;
+}
+
+.tab_list_item .col_221 {
+    float: left;
+
+}
+
+.tab_list_item .col_221 ul li {
+    position: relative;
+    width: 219px;
+    height: 180px;
+}
+
+.tab_list_item .col_221 ul li:first-child {
+    border-bottom: 1px solid #ededed;
+}
+
+.tab_list_item .col_221 img {
+    position: absolute;
+    top: 22px;
+    left: 19px;
+}
+
+.col_22 {
+    width: 221px;
+    height: 360px;
+}
+
+.tab_list_item .col_22 {
+    position: relative;
+    float: left;
+    border-left: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+}
+
+.tab_list_item .col_22 img {
+    position: absolute;
+    top: 71px;
+    left: 23px;
+}
+
+.col_219 {
+    width: 217px;
+    height: 360px;
+}
+
+.tab_list_item .col_219 {
+    float: left;
+}
+
+.tab_list_item .col_219 ul li {
+    position: relative;
+    width: 219px;
+    height: 180px;
+}
+
+.tab_list_item .col_219 ul li:first-child {
+    border-bottom: 1px solid #ededed;
+}
+
+.tab_list_item .col_219 img {
+    position: absolute;
+    top: 23px;
+    left: 15px;
+}
+
+/* 手机通讯区域 */
+.floor .shouji {
+    margin-top: 30px;
+}
+
+/* 手机通讯头部区域 */
+.floor .shouji .box_hd {
+    height: 27px;
+    border-bottom: 2px solid #c81623;
+}
+
+.floor .shouji .box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.floor .shouji .box_hd .tab_list ul {
+    float: right;
+    height: 12px;
+    margin-right: 9px;
+}
+
+.floor .shouji .box_hd .tab_list ul li {
+    float: left;
+    height: 12px;
+    line-height: 12px;
+    margin-top: 9px;
+}
+
+.floor .shouji .box_hd .tab_list li:nth-child(2n) {
+    width: 1px;
+    background-color: #999999;
+    margin: 9px 15px;
+}
+
+/* 手机通讯身体区域 */
+.floor .shouji .box_bd {
+    height: 361px;
+    border: 1px solid #ededed;
+}
+
+.floor .shouji .box_bd .tab_list_item .col_329 {
+    background-color: #c6e8b6;
+}
+
+/* 电脑办公区域 */
+.floor .diannao {
+    margin-top: 30px;
+}
+
+/* 电脑办公头部区域 */
+.floor .diannao .box_hd {
+    height: 27px;
+    border-bottom: 2px solid #c81623;
+}
+
+.floor .diannao .box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.floor .diannao .box_hd .tab_list ul {
+    float: right;
+    height: 12px;
+    margin-right: 9px;
+}
+
+.floor .diannao .box_hd .tab_list ul li {
+    float: left;
+    height: 12px;
+    line-height: 12px;
+    margin-top: 9px;
+}
+
+.floor .diannao .box_hd .tab_list li:nth-child(2n) {
+    width: 1px;
+    background-color: #999999;
+    margin: 9px 15px;
+}
+
+/* 电脑办公身体区域 */
+.floor .diannao .box_bd {
+    height: 361px;
+    border: 1px solid #ededed;
+}
+
+.floor .diannao .box_bd .tab_list_item .col_329 {
+    background-color: #d7aac9;
+}
+
+
+/* 品牌广告区域 */
+/* 家电品牌广告模块 */
+.jiadian_brand {
+    height: 65px;
+    margin-top: 20px;
+    background-color: #f7f7f7;
+}
+
+.jiadian_brand ul li {
+    float: left;
+    height: 39px;
+    margin-top: 13px;
+}
+
+.jiadian_brand ul li:nth-child(-n+9) {
+    border-right: 1px dotted #cccccc;
+}
+
+/* 手机品牌广告模块 */
+.shouji_brand {
+    height: 65px;
+    margin-top: 20px;
+    background-color: #f7f7f7;
+}
+
+.shouji_brand ul li {
+    float: left;
+    height: 39px;
+    margin-top: 13px;
+}
+
+.shouji_brand ul li:nth-child(-n+9) {
+    border-right: 1px dotted #cccccc;
+}
+
+/* 电脑品牌广告模块*/
+.diannao_brand {
+    height: 65px;
+    margin-top: 20px;
+    background-color: #f7f7f7;
+}
+
+.diannao_brand ul li {
+    float: left;
+    height: 39px;
+    margin-top: 13px;
+}
+
+.diannao_brand ul li:nth-child(-n+9) {
+    border-right: 1px dotted #cccccc;
+}
+
+/* 热门疯抢区域模块 */
+.popular {
+    margin-bottom: 37px;
+}
+
+/* 热门区域头部模块 */
+.popular_hd {
+    height: 31px;
+}
+
+.popular_hd h3 {
+    font-size: 18px;
+    color: #333333;
+    font-weight: 400;
+}
+
+/* 热门区域身体模块 */
+.popular_bd {
+    height: 283px;
+    border: 1px solid #ededed;
+    border-bottom: 0;
+}
+
+.popular_bd .left {
+    float: left;
+    width: 239px;
+    height: 281px;
+    overflow: hidden;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.popular_bd .middle {
+    float: left;
+    width: 660px;
+}
+
+.popular_bd .middle ul li {
+    float: left;
+    width: 220px;
+    height: 140px;
+    overflow: hidden;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.popular_bd .right {
+    border-bottom: 1px solid #ededed;
+}
+
+/* 电梯按钮区域模块 */
+.elevator {
+    position: fixed;
+    top: 300px;
+    left: 283px;
+    width: 66px;
+    height: 330px;
+}
+
+.elevator ul li {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #666666;
+    text-align: center;
+    border-bottom: 1px solid #ededed;
+}
+
+.elevator ul li:first-child {
+    border-top: 1px solid #ededed;
+}
+
+.elevator ul li:hover {
+    background-color: #c81623;
+}
+
+.elevator ul li a:hover {
+    color: #ffffff;
+}

@@ -1,0 +1,117 @@
+/* 列表专有样式 */
+.nav {
+    overflow: hidden;
+}
+
+.header .sk {
+    position: absolute;
+    top: 40px;
+    left: 185px;
+    width: 84px;
+    height: 32px;
+    border-left: 1px solid #b1191a;
+    padding-left: 14px;
+    padding-top: 3px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    font-size: 16px;
+    color: #000000;
+    padding: 14px 28px;
+    font-weight: 700;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    font-size: 14px;
+    color: #666666;
+    padding: 16px 24px;
+}
+
+.sk_con ul li a:hover {
+    color: #b1191a;
+}
+
+.sk_con ul li:last-child a::after {
+    content: "\e91e";
+    font-family: 'icomoon';
+}
+
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 434px;
+    background-color: #fff;
+    margin-top: 25px;
+    margin-right: 13px;
+    border: 1px solid transparent
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #e12228;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li h4 {
+    margin-left: 12px;
+    font-size: 14px;
+    color: #666666;
+    font-weight: 400;
+}
+
+.sk_bd ul li p {
+    font-size: 22px;
+    color: #e60012;
+    margin-left: 14px;
+}
+
+.sk_bd ul li p del {
+    font-size: 14px;
+    color: #a4a4a4;
+}
+
+.sk_bd ul li .number {
+    margin-left: 14px;
+}
+
+.sk_bd ul li .number .father {
+    display: inline-block;
+    width: 130px;
+    height: 10px;
+    border: 1px solid #ed282e;
+    border-radius: 5px;
+    margin: 0 12px;
+}
+
+.sk_bd ul li .number .father .son {
+    width: 87%;
+    height: 100%;
+    background-color: #ed282e;
+}
+
+.sk_bd ul li button {
+    width: 288px;
+    height: 49px;
+    background-color: #b1191a;
+    color: #fff;
+}
